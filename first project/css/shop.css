@@ -1,0 +1,142 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: arial;
+}
+ul,ol{
+	list-style: none;
+}
+img{
+	width: 100%;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.poster-block{
+	width: 60%;
+	margin: 0 auto;
+	position: relative;
+	padding: 50px 0;
+}
+.poster-item{
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	color: #fff;
+	font-size: 25px;
+}
+.poster-thumbnail{
+	position: relative;
+}
+.poster-coating{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.poster-title{
+	padding-top: 10%;
+}
+.poster-buy{
+	margin-top: 15%;
+	color: #c4b624;
+	cursor: pointer;
+	background-color: #000;
+	width: 70%;
+	font-size: 20px;
+	padding: 10px 15px;
+}
+.shop-page{
+	display: flex;
+	justify-content: center;
+	padding: 30px 0;
+}
+.shop-page-item{
+	width: 3%;
+	font-size: 20px;
+	cursor: pointer;
+	border: none;
+}
+.shop-page-item:hover{
+	background-color: #000;
+	color: #c4b624;
+}
+.product-thumbnail{
+	position: relative;
+	overflow: hidden;
+}
+.product-coating{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+.product-content{
+	text-align: center;
+	padding: 10px 0;
+}
+.product-price{
+	display: flex;
+	padding: 10px 0;
+	justify-content: center;
+}
+.product-price1{
+	color: red;
+	text-decoration: line-through;
+	padding-right: 5%;
+}
+.product-heart{
+	position: absolute;
+	top: 10%;
+	right: 5%;
+	font-size: 30px;
+	padding:13px;
+	border-radius: 50%;
+	color: #fff;
+	display: none;
+}
+.product-buy{
+	position: absolute;
+	top: 20%;
+	right: 5%;
+	font-size: 30px;
+	padding:13px;
+	border-radius: 50%;
+	color: #fff;
+	display: none;
+}
+.product-item:hover .product-coating{
+	display: block;
+}
+.product-item:hover .product-heart{
+	display: block;
+}
+.product-item:hover .product-buy{
+	display: block;
+}
+.product-item:hover img{
+	transform: scale(1.1);
+	transition: all 0.3s ease-in-out;
+}
+@media screen and (max-width: 991px){
+	.poster-block{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 767px){
+	.poster-item{
+		top: 30%;
+	}
+	.shop-page-item{
+		width: 10%;
+	}
+}

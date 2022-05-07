@@ -1,0 +1,34 @@
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:2
+        },
+        768:{
+            items:3
+        },
+        992:{
+            items:4
+        }
+    }
+})
+$(document).ready(function() {
+    $('.detail').on('click',function(){
+       
+        $('.shop-detail-des-content-detail').toggle()
+        $('.shop-detail-des-content-size').hide()
+        $('.shop-detail-des-content-preserve').hide()
+    })
+    $('.size').on('click',function(){
+        $('.shop-detail-des-content-size').toggle()
+        $('.shop-detail-des-content-detail').hide()
+        $('.shop-detail-des-content-preserve').hide()
+    })
+    $('.preserve').on('click',function(){
+        $('.shop-detail-des-content-preserve').toggle()
+        $('.shop-detail-des-content-size').hide()
+        $('.shop-detail-des-content-detail').hide()
+    })
+});

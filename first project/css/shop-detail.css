@@ -1,0 +1,126 @@
+.owl-theme{
+	padding: 15px;
+}
+.owl-prev{
+	font-size: 25px;
+}
+.owl-next{
+	font-size: 25px;
+}
+.shop-detail-product-price{
+	display: flex;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.shop-detail-product-discount{
+	width: 10%;
+	background-color: #000;
+	color: #c4b624;
+	font-size: 20px;
+	padding: 5px 12px;
+}
+.shop-detail-product-add-block{
+	padding: 20px 0;
+	display: flex;
+}
+.shop-detail-product-add{
+	width: 20%;
+	background-color: #000;
+	color: #c4b624;
+	padding: 5px 12px;
+	cursor: pointer;
+}
+.shop-detail-product-sale{
+	width: 15%;
+	background-color: #cba06a;
+	color: #fff;
+	padding: 5px 12px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.shop-detail-product-heart{
+	color: #9b9c9e;
+	font-size: 25px;
+	padding: 10px 0;
+}
+.fa-facebook-square{
+	color: #0a80ec;
+	font-size: 25px;
+	padding: 10px;
+}
+.shop-detail-fa-instagram-square{
+	color: #cb2753;
+	font-size: 20px;
+	padding: 10px;
+}
+.shop-detail-fa-twitter-square{
+	color: #1d9bf0;
+	font-size: 25px;
+	padding: 10px;
+}
+.shop-detail-quantity{
+	display: flex;
+}
+.shop-detail-quantity-item{
+	padding: 10px;
+	cursor: pointer;
+}
+.shop-detail-des{
+	display: flex;
+	justify-content: center;
+	padding: 100px 0;
+}
+.shop-detail-des-title{
+	padding: 10px 5px;
+	cursor: pointer;
+}
+.shop-detail-des-title{
+	padding: 10px 5px;
+	cursor: pointer;
+}
+.shop-detail-des-title{
+	padding: 10px 5px;
+	cursor: pointer;
+}
+.shop-detail-des-title:hover{
+	color: #c4b624;
+}
+.shop-detail-des-content-detail{
+	padding: 30px 0;
+	display: none;
+}
+.shop-detail-des-content-size{
+	padding: 30px 0;
+	display: none;
+}
+.shop-detail-des-content-preserve{
+	padding: 30px 0;
+	display: none;
+}
+@media screen and (max-width: 991px){
+	.shop-detail-product-add{
+		width: 21%;
+		padding: 16px 12px;
+	}
+	.shop-detail-product-sale{
+		width: 16%;
+		padding: 16px 12px;
+	}
+}
+@media screen and (max-width: 767px){
+	.shop-detail-product-discount{
+		width: 20%;
+	}
+	.shop-detail-product-add{
+		width: 35%;
+		height: 10%;
+		font-size: 13px;
+	}
+	.shop-detail-product-sale{
+		width: 27%;
+		font-size: 13px;
+	}
+	.shop-detail-des{
+		font-size: 10px;
+	}
+}
